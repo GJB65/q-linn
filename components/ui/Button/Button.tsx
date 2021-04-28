@@ -24,7 +24,7 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 const Button: React.FC<ButtonProps> = forwardRef((props, buttonRef) => {
   const {
     className,
-    variant = 'primary',
+    variant = 'flat',
     children,
     active,
     width,
